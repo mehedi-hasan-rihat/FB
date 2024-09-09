@@ -15,19 +15,19 @@ export default function AddPost() {
         </div>
         <div className=" border-b-gray-500 mt-3 border-b w-[96%] mx-auto"></div>
 
-        <div className="flex justify-between py-4 px-7">
-          <div className="flex items-center gap-3">
-            <img src={Vedio}/>
+        <div className="flex justify-between py-4 px-4 md:px-7 gap-1">
+          <div className="flex items-center gap-2 md:gap-3">
+            <img className='w-4' src={Vedio}/>
             <p className='text-sm md:text-base'>Live Vedio</p>
           </div>
 
-          <div className="flex items-center gap-3">
-          <img src={Photo}/>
+          <div className="flex items-center gap-2 md:gap-3">
+          <img className='w-4' src={Photo}/>
           <p className='text-sm md:text-base'>Photo/video</p>
           </div>
 
-          <div className="flex items-center gap-3">
-          <img src={Emoji}/>
+          <div className="flex items-center gap-2 md:gap-3">
+          <img className='w-4' src={Emoji}/>
           <p className='text-sm md:text-base'>Feeling/activity</p>
           </div>
         </div>
