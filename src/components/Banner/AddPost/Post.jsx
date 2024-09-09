@@ -3,8 +3,8 @@ import Profile from '../../../assets/Header/Mini.png';
 import { CiMenuKebab } from "react-icons/ci";
 import { TbXboxX } from "react-icons/tb";
 import { BiWorld } from "react-icons/bi";
-import Img from '../../../assets/Banner/Aw_ICPC.jpg';
 import Data from './data';
+
 export default function Post() {
   return (
     <div>
@@ -37,7 +37,7 @@ export default function Post() {
                 </div>
         
                 <div className="mt-3">
-                    <img src={Img}/>
+                    <img src={data.img}/>
                 </div>
               </div>
             )

@@ -3,7 +3,6 @@ import Profile from '../../../assets/Header/Mini.png';
 import Vedio from '../../../assets/AddPost/video-solid 1.png'
 import Photo  from '../../../assets/AddPost/Vector.png'
 import Emoji from '../../../assets/AddPost/Emoji.png'
-
 export default function AddPost() {
   return (
     <div className='bg-[#242526] my-5 rounded-lg'>
