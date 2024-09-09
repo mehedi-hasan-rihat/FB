@@ -13,7 +13,7 @@ import Fb from '../../assets/navabr/FB-Logo.png'
 import { CiSearch } from "react-icons/ci";
 export default function Navbar() {
   return (
-    <div className='flex justify-between px-5 py-3 bg-[#222222]'>
+    <div className='flex justify-between px-5 py-3 bg-[#222222] sticky top-0 border-b border-gray-600'>
 
        <div className="flex w-max items-center lg:gap-5 gap-3  justify-between">
 

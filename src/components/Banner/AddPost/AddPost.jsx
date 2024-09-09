@@ -13,22 +13,22 @@ export default function AddPost() {
           <img src={Profile} className='object-cover w-12' alt="" />
           <input type='text' className='rounded-full bg-[#4E4F50] px-3 text-[17px] text-[#dbd8cf] outline-none w-full mx-2' placeholder="What's on your mind?"/>
         </div>
-        <div className=" border-b-gray-500 mt-6 border-b "></div>
+        <div className=" border-b-gray-500 mt-3 border-b w-[96%] mx-auto"></div>
 
-        <div className="flex justify-between py-7 px-7">
+        <div className="flex justify-between py-4 px-7">
           <div className="flex items-center gap-3">
             <img src={Vedio}/>
-            <p>Live Vedio</p>
+            <p className='text-sm md:text-base'>Live Vedio</p>
           </div>
 
           <div className="flex items-center gap-3">
           <img src={Photo}/>
-          <p>Photo/video</p>
+          <p className='text-sm md:text-base'>Photo/video</p>
           </div>
 
           <div className="flex items-center gap-3">
           <img src={Emoji}/>
-          <p>Feeling/activity</p>
+          <p className='text-sm md:text-base'>Feeling/activity</p>
           </div>
         </div>
       </div>
